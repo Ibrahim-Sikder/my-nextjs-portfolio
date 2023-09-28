@@ -34,14 +34,7 @@ const Banner = () => {
         I am a web developer with 1+ years of experience in React. I have a
         strong foundation in front-end & now gaining strong foundation on back-end development and am skilled in
         creating user-friendly and responsive web applications using React and
-        its ecosystem.{" "}
-        <a href="" target="_blank">
-          {" "}
-          <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
-            Learn more
-            <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
-          </span>
-        </a>
+        its ecosystem.
       </motion.p>
       <Link href="https://github.com/Ibrahim-Sikder" target="_blank">
         <motion.button

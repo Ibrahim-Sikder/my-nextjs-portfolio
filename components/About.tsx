@@ -15,11 +15,7 @@ const About = () => {
           <p>
           It is an honer for me to introduce myself as Ibrahim Sikder, a Frontend and junior MERN Stack Developer.I lost myself when i dive into the codes. I do code and create web elements for amazing people around the world.I like work with new people.New people new Experience.
           </p>
-          <p> I enjoy creating things that
-            live on the internet. My interest in web development started back in
-            2019 when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
+          <p> I am passionate about using my skills to create intuitive, scalable, and reliable applications that can help businesses and organizations reach their objectives. As an associate software engineer, I work closely with cross-functional teams to design and develop high-quality software solutions that meet the needs of our users.
           </p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex items-center gap-2">

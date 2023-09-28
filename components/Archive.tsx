@@ -160,11 +160,11 @@ const Archive = () => {
               transition={{ delay: 0.8 }}
             >
               <ArchiveCard
-                title="Blog101 Application"
+                title="Todo App"
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Nextjs", "Tailwind CSS", "next-auth"]}
-                link="https://blog101.reactbd.com/"
+                link="https://todo-app-client-l28c.vercel.app/login"
               />
             </motion.div>
             <motion.div
@@ -173,11 +173,11 @@ const Archive = () => {
               transition={{ delay: 0.9 }}
             >
               <ArchiveCard
-                title="Todo application"
+                title="Social App"
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
-                link="https://youtubetodo.vercel.app/"
+                link="https://my-social-app-client-nine.vercel.app/"
               />
             </motion.div>
           </>
