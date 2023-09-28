@@ -10,8 +10,8 @@ const Splash = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        MERN Stack Developer
-        <span className="text-textGreen tracking-wide">@Splash</span>
+       
+        <span className="text-textGreen tracking-wide">MERN Stack Developer</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
         Jan 2021 - Dec 2021

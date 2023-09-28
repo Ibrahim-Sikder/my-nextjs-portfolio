@@ -9,54 +9,56 @@ const Archive = () => {
     <div className="max-w-contentContainer mx-auto px-4 py-24">
       <div className="w-full flex flex-col items-center">
         <h2 className="text-3xl font-titleFont font-semibold">
-          Other Noteworthy Projects
+          Other Working Projects
         </h2>
         <p className="text-sm font-titleFont text-textGreen">
-          view the archive
+          view the project
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
+      
         <ArchiveCard
-          title="Educare Engligh Learning Academy"
+                title="Happy Quizzing !"
+                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            laudantium velit qui sint non, voluptates quo a veritatis."
+                listItem={["Reactjs", "Bootstrap", "Html"]}
+                link="https://sweet-crumble-8a9724.netlify.app/"
+              />
+                <ArchiveCard
+          title="Creative Digital Agency Online"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.educareenglishlearningacademy.com/"
+          listItem={["JavaScript", "Bootstrap", "Html","Gsap animaton"]}
+          link="https://monumental-cheesecake-9a7972.netlify.app/"
         />
         <ArchiveCard
-          title="Cyber Security Blog with live comments section"
+          title="Landing Page Desing"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.noormohmmad.com/"
+          listItem={["JavaScript", "Bootstrap", "Html"]}
+          link="https://subtle-selkie-38000f.netlify.app/"
         />
         <ArchiveCard
-          title="ReactBD web development company"
+          title="Car service website "
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://reactbd.com/"
+          listItem={["Reactjs", "Tailwind CSS", "Node js","Express js"]}
+          link="https://sensational-zuccutto-34d3d8.netlify.app/"
         />
         <ArchiveCard
-          title="Amazon Clone with login, cart-option and payment intrigation."
+          title="Hostpital Website "
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://amazonclone.reactbd.com/"
+          listItem={["JavaScript", "Html","Css", "Bootstrap"]}
+          link="https://lucky-blini-609703.netlify.app/"
         />
+        
         <ArchiveCard
-          title="JSON data (example data api for test projects)"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Nextjs", "Tailwind CSS", "next-router"]}
-          link="https://jsondata.reactbd.com/"
-        />
-        <ArchiveCard
-          title="Dynamic Responsive Portfolio"
+          title="My  Reactjs  Portfolio"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://portfolioone.reactbd.com/"
+          listItem={["Reactjs", "Tailwind CSS", ""]}
+          link="https://645372498497c26b87326343--quiet-quokka-dfdf48.netlify.app/"
         />
 
         {showMore && (
@@ -67,12 +69,12 @@ const Archive = () => {
               transition={{ delay: 0.1 }}
             >
               <ArchiveCard
-                title="OREBI e-commerce Shopping store"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-                link="https://orebishopping.reactbd.com/"
-              />
+          title="Fitness Club"
+          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              laudantium velit qui sint non, voluptates quo a veritatis."
+          listItem={["JavaScript", "Html", "Css", "Bootstrap"]}
+          link="https://stalwart-mooncake-a36731.netlify.app/"
+        />
             </motion.div>
             <motion.div
               initial={{ opacity: 0 }}
@@ -80,11 +82,11 @@ const Archive = () => {
               transition={{ delay: 0.2 }}
             >
               <ArchiveCard
-                title="Noor Online Shopping Store"
+                title="Debugging Test"
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Reactjs", "Tailwind CSS", "redux-toolkit"]}
-                link="https://noorshop.netlify.app/"
+                link="https://boisterous-kringle-29b696.netlify.app/"
               />
             </motion.div>
             <motion.div
@@ -93,11 +95,11 @@ const Archive = () => {
               transition={{ delay: 0.3 }}
             >
               <ArchiveCard
-                title="Personalized Blog"
+                title="Soccer Top 5"
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Nextjs", "Tailwind CSS", "next-auth", "firebase"]}
-                link="https://my-blog-delta-eight.vercel.app/"
+                link="https://timely-sawine-d736e1.netlify.app/"
               />
             </motion.div>
             <motion.div
@@ -106,11 +108,11 @@ const Archive = () => {
               transition={{ delay: 0.4 }}
             >
               <ArchiveCard
-                title="Shoppers Online Shopping Market"
+                title="Debuging Test"
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Nextjs", "react-slick", "redux-toolkit"]}
-                link="https://shoppersyt.vercel.app/"
+                link="https://boisterous-kringle-29b696.netlify.app/"
               />
             </motion.div>
             <motion.div
@@ -119,11 +121,11 @@ const Archive = () => {
               transition={{ delay: 0.5 }}
             >
               <ArchiveCard
-                title="Single Page Personalized Portfolio"
+                title="Biznes"
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
-                link="https://portfoliotwo.reactbd.com/"
+                link="https://illustrious-druid-04767c.netlify.app"
               />
             </motion.div>
             <motion.div
@@ -132,11 +134,11 @@ const Archive = () => {
               transition={{ delay: 0.6 }}
             >
               <ArchiveCard
-                title="Nextjs Dynamic Portfolio"
+                title="Reactjs Portfolio "
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
-                link="https://portfoliothree.reactbd.com/"
+                link="https://warm-pony-d0c784.netlify.app/"
               />
             </motion.div>
             <motion.div
@@ -145,11 +147,11 @@ const Archive = () => {
               transition={{ delay: 0.7 }}
             >
               <ArchiveCard
-                title="Bazaar - A Modern Shopping app"
+                title="Shopping Cart "
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
-                link="https://bazar.reactbd.com/"
+                link="https://shopping-cart-tau-navy.vercel.app/"
               />
             </motion.div>
             <motion.div

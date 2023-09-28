@@ -4,6 +4,7 @@ import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
 import { RxOpenInNewWindow } from "react-icons/rx";
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -14,7 +15,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://nextamazon.reactbd.com/"
+            href="https://www.ghuronti.com/hotel"
             target="_blank"
           >
             <div>
@@ -31,43 +32,33 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">ghrunti.com</h3>
             </div>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
-              website. View your products, Add your account with{" "}
-              <span className="text-textGreen">O-auth</span> and then make the
-              purchage using <span className="text-textGreen">stripe</span>.
+              বাস, বিমান ও লঞ্চ এর টিকেট , দেশ ও বিদেশ এর ভ্রমণ প্যাকেজে, হজ্জ্ব ও ওমরা প্যাকেজ, হোটেল বুকিং,সকাল প্রকার ভিসা প্রসেসিং| 
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Stripe</li>
-              <li>Vercel Deployment</li>
+              <li>Redux</li>
+              <li>Tailwind css </li>
+              <li>Node js</li>
+              <li>Express js</li>
             </ul>
             <div className="text-2xl flex gap-4">
-              <a
+              <Link
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/Ibrahim-Sikder/ghurunti"
                 target="_blank"
               >
                 <TbBrandGithub />
-              </a>
-              <a
+              </Link>
+              <Link
                 className="hover:text-textGreen duration-300"
-                href="https://youtu.be/WzMtRfzkP-Q"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="https://nextamazon.reactbd.com/"
+                href="https://www.ghuronti.com/hotel"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -76,7 +67,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://www.noormohmmad.com/"
+            href="https://havenly-de0a6.web.app/"
             target="_blank"
           >
             <div>
@@ -93,41 +84,31 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Cyber Security Blog</h3>
+              <h3 className="text-2xl font-bold">Havenly </h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
-              A full functional Cyber Security Blog where you can view the
-              latest post and{" "}
-              <span className="text-textGreen">comments on</span> it by passing
-              your ideas besides you can try to add your own{" "}
-              <span className="text-textGreen">post</span> on it by logging on
-              the portal.
+            This is a service-based website where user can take appartment.
+
+              <span className="text-textGreen">User </span> can book house and give review.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Sanity</li>
-              <li>React Hook Form</li>
+              <li>React js</li>
+              <li>Tailwind css</li>
+              <li>Strip</li>
+              <li>Redux</li>
+              <li>Strip & JWT </li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/devmonika/Havenly-client"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://youtu.be/49Fx963su1I"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="https://www.noormohmmad.com/"
+                href="https://havenly-de0a6.web.app/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
@@ -140,7 +121,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://noorshop.netlify.app/"
+            href="https://6455bd7567048843913f9d26--dreamy-conkies-33d504.netlify.app/"
             target="_blank"
           >
             <div>
@@ -160,36 +141,27 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
-              website. View your products, Add your account with{" "}
-              <span className="text-textGreen">O-auth</span> and then make the
-              purchage using <span className="text-textGreen">stripe</span>.
+              An Amazon full responsve GP3 website for visualizing personalized 
+              website.Using Css Flex-Grid and Mem Model.
+
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Stripe</li>
+              <li>Tailwind Css </li>
+              <li>Framer Motion</li>
               <li>Vercel Deployment</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/Ibrahim-Sikder/GPT3"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://youtu.be/fi0nQc25xAw"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="https://noorshop.netlify.app/"
+                href="https://6455bd7567048843913f9d26--dreamy-conkies-33d504.netlify.app/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />

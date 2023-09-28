@@ -1,8 +1,7 @@
-import { profileImg } from "@/public/assets";
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
-
+import profile from '../public/assets/images/profile.jpg'
 const About = () => {
   return (
     <section
@@ -12,31 +11,16 @@ const About = () => {
       <SectionTitle title="About Me" titleNo="01" />
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
+          
           <p>
-            Hello! My name is Noor Mohammad and I enjoy creating things that
+          It is an honer for me to introduce myself as Ibrahim Sikder, a Frontend and junior MERN Stack Developer.I lost myself when i dive into the codes. I do code and create web elements for amazing people around the world.I like work with new people.New people new Experience.
+          </p>
+          <p> I enjoy creating things that
             live on the internet. My interest in web development started back in
-            2012 when I decided to try editing custom Tumblr themes — turns out
+            2019 when I decided to try editing custom Tumblr themes — turns out
             hacking together a custom reblog button taught me a lot about HTML &
             CSS!
           </p>
-          <p>
-            Fast-forward to today, and I had the privilege of working at an
-            advertising agency, a start-up,{" "}
-            <span className="text-textGreen">
-              a huge corporation, and a student-led design studio.
-            </span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem
-            accusantium fugiat veritatis, quidem repellat{" "}
-            <span className="text-textGreen">
-              ab natus possimus? Sint, accusamus!
-            </span>
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            ullam eligendi dolorum nostrum possimus quos iusto magnam ut esse
-            recusandae.
-          </p>
-          <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -93,8 +77,8 @@ const About = () => {
             <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
               <Image
                 className="rounded-lg h-full object-cover"
-                src={profileImg}
-                alt="profileImg"
+                src={profile}
+                alt="profile"
               />
               <div className="hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>

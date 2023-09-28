@@ -49,7 +49,7 @@ const Navbar = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.1 }}
           >
-            <Image className="w-14" src={logo} alt="logo" />
+            <h3 className="text-3xl font-bold text-textGreen">Ibrahim Sikder</h3>
           </motion.div>
         </Link>
         {/* ============ Logo End here ============== */}
@@ -71,7 +71,7 @@ const Navbar = () => {
             </Link>
 
             <Link
-              className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 font-medium text-textGreen hover:text-textDark  cursor-pointer duration-300 nav-link"
               href="#about"
               onClick={handleScroll}
             >
@@ -80,12 +80,12 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.1 }}
               >
-                <span className="text-textGreen">01.</span>
-                About
+                <span>About</span>
+                
               </motion.li>
             </Link>
             <Link
-              className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 font-medium text-textGreen hover:text-textDark cursor-pointer duration-300 nav-link"
               href="#experience"
               onClick={handleScroll}
             >
@@ -94,12 +94,12 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.2 }}
               >
-                <span className="text-textGreen">02.</span>
-                Experience
+                <span>Experience</span>
+                
               </motion.li>
             </Link>
             <Link
-              className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 font-medium text-textGreen hover:text-textDark cursor-pointer duration-300 nav-link"
               href="#project"
               onClick={handleScroll}
             >
@@ -108,12 +108,12 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.3 }}
               >
-                <span className="text-textGreen">03.</span>
-                Project
+                <span>Project</span>
+                
               </motion.li>
             </Link>
             <Link
-              className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 font-medium text-textGreen hover:text-textDark cursor-pointer duration-300 nav-link"
               href="#contact"
               onClick={handleScroll}
             >
@@ -122,12 +122,12 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.4 }}
               >
-                <span className="text-textGreen">04.</span>
-                Contact
+               Contact
+                
               </motion.li>
             </Link>
           </ul>
-          <a href="/assets/noor_resume.pdf" target="_blank">
+          <a href="https://docs.google.com/document/d/1SelCtD6BwA9gJuxozOg3DZfU1V_FN1fJvngYhMewS3o/edit?usp=sharing" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
