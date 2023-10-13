@@ -1,0 +1,33 @@
+
+.bannerWrap{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:center;
+    justify-content:space-between;
+    width:100%;
+
+}
+.leftSide{
+    order:2
+}
+.rightSide{
+    order:1
+}
+
+@media screen and (max-width:768px) {
+    .rightSide{
+        margin-top:30px;
+    }
+    .bannerWrap{
+        flex-wrap:wrap;
+        flex-direction: row-reverse;
+
+    }
+    .leftSide{
+        order:2 !important;
+    }
+    .rightSide{
+        order:1 !important;
+    }
+    
+}

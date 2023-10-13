@@ -14,3 +14,7 @@
 .active {
   color: #64ffda;
 }
+
+.rfm-marquee-container {
+ padding-top:80px !important;
+}

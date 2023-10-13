@@ -11,7 +11,7 @@ import Skill from "../components/Skill/Skill"
 import Head from "next/head";
 import { motion } from "framer-motion";
 import Archive from "@/components/Archive";
-
+import Technology from '../components/Technology/Technology'
 export default function Home() {
   return (
     <>
@@ -34,6 +34,7 @@ export default function Home() {
           </motion.div>
           <div className="h-[88vh] mx-auto p-4">
             <Banner />
+            <Technology/>
             <About />
            
             <Experience />

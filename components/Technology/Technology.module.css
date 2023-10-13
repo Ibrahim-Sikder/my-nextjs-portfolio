@@ -1,0 +1,43 @@
+
+
+.skill{
+    animation: bounce  6s infinite linear;
+   
+}
+.skills{
+    margin-right:60px;
+}
+.skill2{
+    animation: bounce2  6s infinite linear;
+}
+
+.lineWrap{
+    margin-top:-80px;
+}
+.hidSkill{
+    display: none;
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-50%); /* Move left to create the bounce effect */
+      }
+      100% {
+        transform: translateY(0);
+      }
+  }
+  
+  @keyframes bounce2 {
+    0% {
+        transform: translateY(-50%);
+      }
+      50% {
+        transform: translateY(0); /* Move left to create the bounce effect */
+      }
+      100% {
+        transform: translateY(-50%);
+      }
+  }
+  

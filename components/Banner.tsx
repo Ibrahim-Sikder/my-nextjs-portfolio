@@ -1,11 +1,28 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useRef, useEffect} from "react";
+import { useTypewriter } from "react-simple-typewriter";
+import style from './Style.module.css'
+import Image from "next/image";
 const Banner = () => {
+  const [text] = useTypewriter({
+    words: ['MERN Stack Developer', 'Full Stack Developer', 'React js Developer', 'JavaScript Developer!'],
+    loop: 0
+  })
+
+  const ref = useRef(null);
+  useEffect(() => {
+    import("@lottiefiles/lottie-player");
+  });
+
+
   return (
     <section
       id="home"
       className="max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4"
     >
+     <div className={style.bannerWrap}>
+      <div className={style.leftSide}>
       <motion.h3
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -21,8 +38,8 @@ const Banner = () => {
         className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
       >
         Ibrahim Sikder.
-        <span className="text-textDark mt-2 lgl:mt-4">
-          I build things for the web.
+        <span className="text-textDark text-3xl mt-2 lgl:mt-4">
+        I am a <span className="text-textGreen">{text}</span>
         </span>
       </motion.h1>
       <motion.p
@@ -31,10 +48,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I am a web developer with 1+ years of experience in React. I have a
-        strong foundation in front-end & now gaining strong foundation on back-end development and am skilled in
-        creating user-friendly and responsive web applications using React and
-        its ecosystem.
+      <p className="mt-2 mb-5"> I am a passionate MERN stack developer with a strong foundation in building robust web applications. My goal is to leverage my expertise in MongoDB, Express.js, React, and Node.js to contribute to innovative and dynamic projects within a forward-thinking organization. I am dedicated to delivering high-quality software solutions that not only meet but exceed user expectations, combining my technical skills with a keen eye for user experience.</p>
       </motion.p>
       <Link href="https://github.com/Ibrahim-Sikder" target="_blank">
         <motion.button
@@ -46,6 +60,20 @@ const Banner = () => {
           Check out my project!
         </motion.button>
       </Link>
+      </div>
+      <div className={style.rightSide}>
+      <lottie-player
+          id="firstLottie"
+          ref={ref}
+          autoplay
+          loop
+          mode="normal"
+          src="/ibrahim.json"
+          style={{ width: "500px", height: "500px" }}
+        ></lottie-player>
+        
+      </div>
+     </div>
     </section>
   );
 };
