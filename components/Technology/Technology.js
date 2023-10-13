@@ -10,9 +10,10 @@ import mongodb from "../../public/assets/mongodb.svg";
 import firebase from "../../public/assets/firebase.svg";
 import line from "../../public/assets/line.svg";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 const Technology = () => {
   return (
-    <div className="">
+    <div className="w-11/12 mx-auto">
         <div className="text-center w-7/12 mx-auto ">
             <h3 className="text-4xl font-bold text-textGreen">Front-End & Back-End Abilities</h3>
             <p className="mt-3 mb-8 text-white">I plan to further deepen my knowledge of the MERN stack and enhance my proficiency in both front-end and back-end development. My goal is to be a versatile full-stack developer capable of architecting entire applications from start to finish.</p>
@@ -56,4 +57,4 @@ const Technology = () => {
   );
 };
 
-export default Technology;
+export default dynamic(() => Promise.resolve(Technology), { ssr: false });

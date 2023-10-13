@@ -1,5 +1,4 @@
 import About from "@/components/About";
-import Banner from "@/components/Banner";
 import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
@@ -12,6 +11,7 @@ import Head from "next/head";
 import { motion } from "framer-motion";
 import Archive from "@/components/Archive";
 import Technology from '../components/Technology/Technology'
+import Banner from "@/components/Banner";
 export default function Home() {
   return (
     <>
@@ -33,7 +33,7 @@ export default function Home() {
             <LeftSide />
           </motion.div>
           <div className="h-[88vh] mx-auto p-4">
-            <Banner />
+            <Banner/>
             <Technology/>
             <About />
            
