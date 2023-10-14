@@ -4,6 +4,7 @@ import { useRef, useEffect} from "react";
 import { useTypewriter } from "react-simple-typewriter";
 import style from './Style.module.css'
 import Image from "next/image";
+import dynamic from "next/dynamic";
 const Banner = () => {
   const [text] = useTypewriter({
     words: ['MERN Stack Developer', 'Full Stack Developer', 'React js Developer', 'JavaScript Developer!'],
@@ -55,7 +56,7 @@ const Banner = () => {
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.9 }}
-          className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
+          className="w-44 h-10 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
         >
           Check out my project!
         </motion.button>
@@ -69,7 +70,7 @@ const Banner = () => {
           loop
           mode="normal"
           src="/ibrahim.json"
-          style={{ width: "500px", height: "500px" }}
+          className={style.programmerAnimation}
         ></lottie-player>
         
       </div>
@@ -78,4 +79,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default dynamic(() => Promise.resolve(Banner), { ssr: false });

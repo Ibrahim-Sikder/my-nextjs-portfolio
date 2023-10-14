@@ -4,20 +4,32 @@
     flex-direction: row-reverse;
     align-items:center;
     justify-content:space-between;
-    width:100%;
+    width:1250px;
 
 }
+.programmerAnimation{
+    width:500px !important;
+    height:500px !important;
+}
+
 .leftSide{
     order:2
 }
 .rightSide{
-    order:1
+    order:1;
+    width:500px !important;
 }
 
-@media screen and (max-width:768px) {
-    .rightSide{
-        margin-top:30px;
+@media only screen and (max-width:1024px){
+    .bannerWrap{
+        width:100%;
+    
     }
+}
+
+
+@media screen and (max-width:768px) {
+
     .bannerWrap{
         flex-wrap:wrap;
         flex-direction: row-reverse;
@@ -28,6 +40,15 @@
     }
     .rightSide{
         order:1 !important;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    .rightSide{
+        width:100%;
+        margin:0 auto;
+        margin-right:20px;
     }
     
 }

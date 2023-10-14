@@ -13,60 +13,12 @@ const About = () => {
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           
           <p>
-          It is an honer for me to introduce myself as Ibrahim Sikder, a Frontend and junior MERN Stack Developer.I lost myself when i dive into the codes. I do code and create web elements for amazing people around the world.I like work with new people.New people new Experience.
+          Hi there! I am Ibrahim Sikder, a MERN stack developer with a passion for creating awesome websites and web applications. I may not have a computer science degree, but I have learned the ropes through hands-on experience and a strong desire to build cool stuff on the internet.
           </p>
+          <p>I specialize in using MongoDB, Express.js, React, and Node.js to bring web ideas to life. I love making websites that are not only visually appealing but also work smoothly. Whether it is crafting user interfaces with React or building robust server-side APIs with Node.js and Express, I am up for the challenge.</p>
           <p> I am passionate about using my skills to create intuitive, scalable, and reliable applications that can help businesses and organizations reach their objectives. As an associate software engineer, I work closely with cross-functional teams to design and develop high-quality software solutions that meet the needs of our users.
           </p>
-          <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              JavaScript (ES6+)
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Next.js
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              React
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Node.js
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              TypeScript
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Express.js
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              MongoDB
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Tailwindcss
-            </li>
-          </ul>
+         
         </div>
         <div className="w-full lgl:w-1/3 h-80 relative group">
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg ">

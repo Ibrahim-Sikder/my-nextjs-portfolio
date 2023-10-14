@@ -1,5 +1,20 @@
 
-
+.technologyWrap{
+  width:1300px;
+  margin:0 auto;
+}
+.technologyHead{
+  width:700px;
+  margin:0 auto;
+  text-align: center;
+  
+}
+.skillAnimation{
+  width:170px;
+}
+.technologyHead h3{
+  font-size: 35px;
+}
 .skill{
     animation: bounce  6s infinite linear;
    
@@ -13,7 +28,9 @@
 
 .lineWrap{
     margin-top:-80px;
+   
 }
+
 .hidSkill{
     display: none;
 }
@@ -41,3 +58,44 @@
       }
   }
   
+  @media only screen and (max-width:1024px){
+    .technologyWrap{
+      width:100%;
+      margin:0 auto;
+    }
+  }
+
+
+  @media only screen and (max-width:768px){
+    .technologyHead{
+      width:100%;
+      
+    }
+    .technologyHead h3{
+      font-size: 30px;
+    }
+    .skillAnimation{
+      width:130px;
+    }
+    .skills {
+      margin-right: 40px;
+  }
+    
+  }
+
+  @media only screen and (max-width:500px){
+    .technologyHead h3{
+      font-size: 23px;
+    }
+    .skillAnimation{
+      width:70px;
+    }
+    .skills {
+      margin-right: 18px;
+  }
+  .lineWrapImg{
+    width:2000px;
+
+  }
+  
+  }

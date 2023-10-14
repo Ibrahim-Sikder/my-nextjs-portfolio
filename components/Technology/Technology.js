@@ -13,43 +13,43 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 const Technology = () => {
   return (
-    <div className="w-11/12 mx-auto">
-        <div className="text-center w-7/12 mx-auto ">
-            <h3 className="text-4xl font-bold text-textGreen">Front-End & Back-End Abilities</h3>
+    <div className={style.technologyWrap}>
+        <div className={style.technologyHead}>
+            <h3 className="font-bold text-textGreen">Front-End & Back-End Abilities</h3>
             <p className="mt-3 mb-8 text-white">I plan to further deepen my knowledge of the MERN stack and enhance my proficiency in both front-end and back-end development. My goal is to be a versatile full-stack developer capable of architecting entire applications from start to finish.</p>
         </div>
      <div className="flex items-center">
      <Marquee pauseOnHover={true}>
         <div className={`${style.skill} ${style.skills}`}>
-          <Image src={html} alt="html" width={170} />
+          <Image src={html} alt="html"  className={style.skillAnimation} />
         </div>
         <div className={`${style.skill2} ${style.skills}`}>
-          <Image src={css} alt="html" width={170} />
+          <Image src={css} alt="html" className={style.skillAnimation} />
         </div>
         <div className={`${style.skill} ${style.skills}`}>
-          <Image src={javascript} alt="html" width={170} />
+          <Image src={javascript} alt="html" className={style.skillAnimation} />
         </div>
         <div className={`${style.skill2} ${style.skills}`}>
-          <Image src={react} alt="html" width={170} />
+          <Image src={react} alt="html" className={style.skillAnimation} />
         </div>
         <div className={`${style.skill} ${style.skills}`}>
-          <Image src={node} alt="html" width={170} />
+          <Image src={node} alt="html" className={style.skillAnimation} />
         </div>
         <div className={`${style.skill2} ${style.skills}`}>
-          <Image src={mongodb} alt="html" width={170} />
+          <Image src={mongodb} alt="html" className={style.skillAnimation} />
         </div>
         <div className={`${style.skill} ${style.skills}`}>
-          <Image src={firebase} alt="html" width={170} />
+          <Image src={firebase} alt="html" className={style.skillAnimation} />
         </div>
         <div className={`${style.skill} ${style.hidSkill}`}>
-          <Image src={html} alt="html" width={170} />
+          <Image src={html} alt="html" className={style.skillAnimation} />
         </div>
       </Marquee>
      </div>
       <div className={style.lineWrap}>
         <Marquee pauseOnHover={true}>
           <div className={style.line}>
-            <Image src={line} alt="html" width={5000} />
+            <Image src={line} alt="html" width={5000} className={style.lineWrapImg} />
           </div>
         </Marquee>
       </div>
