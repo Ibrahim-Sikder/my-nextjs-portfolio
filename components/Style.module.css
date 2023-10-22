@@ -16,8 +16,9 @@
     order:2
 }
 .rightSide{
-    order:1;
-    width:500px !important;
+    order: 1;
+    width: 500px !important;
+    margin-right: 35px;
 }
 
 @media only screen and (max-width:1024px){
@@ -40,6 +41,9 @@
     }
     .rightSide{
         order:1 !important;
+    }
+    .rightSide{
+        margin-right: 5px;
     }
     
 }

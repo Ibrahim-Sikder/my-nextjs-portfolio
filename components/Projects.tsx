@@ -4,6 +4,7 @@ import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
 import { RxOpenInNewWindow } from "react-icons/rx";
+import softyPy from '../public/assets/SoftyPy.png'
 import Link from "next/link";
 
 const Projects = () => {
@@ -35,7 +36,7 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">ghrunti.com</h3>
             </div>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              বাস, বিমান ও লঞ্চ এর টিকেট , দেশ ও বিদেশ এর ভ্রমণ প্যাকেজে, হজ্জ্ব ও ওমরা প্যাকেজ, হোটেল বুকিং,সকাল প্রকার ভিসা প্রসেসিং| 
+             Ghuronti is a Travel Agency website. Where a user travel journey is more easyway .Through this website a user can book Flight, Hotel, Bus Ticket, Train Ticket and  Hajj & Umrah package.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Nextjs</li>
@@ -87,7 +88,7 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Havenly </h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
-            This is a service-based website where user can take appartment.
+            Elevate your housing search experience with our house rental website. Explore, sort, and manage your choices in style with features like a customizable dashboard, convenient dark mode, and secure JWT authentication. Discover the future of seamless renting at your fingertips."
 
               <span className="text-textGreen">User </span> can book house and give review.
             </p>
@@ -121,13 +122,13 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://6455bd7567048843913f9d26--dreamy-conkies-33d504.netlify.app/"
+            href="https://softy-py.vercel.app/"
             target="_blank"
           >
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={noorShop}
+                src={softyPy}
                 alt="noorShop"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
@@ -138,30 +139,29 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">SoftyPy</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-              An Amazon full responsve GP3 website for visualizing personalized 
-              website.Using Css Flex-Grid and Mem Model.
+              This is a It services company website.Through this website that company handle there business. By this website user find their best It partner. Making this website I use React Js, Tailwind css, Node js, Express js and MongoDB.
 
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
+              <li>React Js </li>
               <li>Tailwind Css </li>
-              <li>Framer Motion</li>
+              <li>Css custom animation</li>
               <li>Vercel Deployment</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/Ibrahim-Sikder/GPT3"
+                href="https://github.com/Ibrahim-Sikder/SoftyPy"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://6455bd7567048843913f9d26--dreamy-conkies-33d504.netlify.app/"
+                href="https://softy-py.vercel.app/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
