@@ -12,6 +12,7 @@ import { motion } from "framer-motion";
 import Archive from "@/components/Archive";
 import Technology from '../components/Technology/Technology'
 import Banner from "@/components/Banner";
+import MyProjects from '../components/MyProjects/MyProjects'
 export default function Home() {
   return (
     <>
@@ -39,7 +40,7 @@ export default function Home() {
            
             <Experience />
             <Projects />
-            <Archive />
+            <MyProjects/>
             <Contact />
             <Footer />
           </div>
