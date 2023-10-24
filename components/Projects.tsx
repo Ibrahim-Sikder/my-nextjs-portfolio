@@ -1,10 +1,10 @@
-import { amazonImg, cyberImg, softyPy } from "@/public/assets";
+import { amazonImg, cyberImg } from "@/public/assets";
 import Image from "next/image";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
 import { RxOpenInNewWindow } from "react-icons/rx";
 import Link from "next/link";
-
+import softyPy from '../public/assets/images/SoftyPy.png'
 const Projects = () => {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
