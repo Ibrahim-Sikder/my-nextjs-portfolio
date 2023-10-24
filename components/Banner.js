@@ -7,7 +7,7 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 const Banner = () => {
   const [text] = useTypewriter({
-    words: ['MERN Stack Developer', 'Full Stack Developer', 'React js Developer', 'JavaScript Developer!'],
+    words: ['MERN Stack Developer!', 'Full Stack Developer!', 'React js Developer!', 'JavaScript Developer!', 'Front-End Developer!', 'Software Engineer!'],
     loop: 0
   })
 
@@ -39,7 +39,7 @@ const Banner = () => {
         className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
       >
         Ibrahim Sikder.
-        <span className="text-textDark text-3xl mt-2 lgl:mt-4">
+        <span className="text-textDark text-xl md:text-3xl mt-2 lgl:mt-4">
         I am a <span className="text-textGreen">{text}</span>
         </span>
       </motion.h1>

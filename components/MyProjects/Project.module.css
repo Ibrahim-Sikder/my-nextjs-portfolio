@@ -177,4 +177,11 @@
     width: 135px;
     height: 139px;
   }
+
 }
+@media only screen and (max-width: 350px) {
+  .ourServicesRightSide {
+    margin-left: -1rem;
+}
+}
+

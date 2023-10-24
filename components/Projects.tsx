@@ -1,6 +1,5 @@
-import { amazonImg, cyberImg, noorShop } from "@/public/assets";
+import { amazonImg, cyberImg } from "@/public/assets";
 import Image from "next/image";
-import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
 import { RxOpenInNewWindow } from "react-icons/rx";
@@ -10,7 +9,7 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
-      <SectionTitle title="Some Things I have Built" titleNo="03" />
+      <SectionTitle title=" Showcasing My Top 3 Projects" titleNo="03" />
       {/* ============ project One Start here ================ */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row gap-6">
@@ -88,7 +87,7 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Havenly </h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
-            Elevate your housing search experience with our house rental website. Explore, sort, and manage your choices in style with features like a customizable dashboard, convenient dark mode, and secure JWT authentication. Discover the future of seamless renting at your fingertips."
+            Elevate your housing search experience with our house rental website. Explore, sort, and manage your choices in style with features like a customizable dashboard, convenient dark mode, and secure JWT authentication. Discover the future of seamless renting at your fingertips.
 
               <span className="text-textGreen">User </span> can book house and give review.
             </p>

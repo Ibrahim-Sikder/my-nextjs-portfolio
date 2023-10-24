@@ -46,7 +46,7 @@ const MyProjects = () => {
       <div className={style.ourServicesWrap}>
         <div className={style.ourServiceLeftSide}>
           <h3 className="text-3xl mb-3 text-[#64FFDA] font-bold ">
-            "Other portfolio Showcase: My Creative Journey"
+          Other portfolio Showcase: My Creative Journey
           </h3>
           <p>
             Explore my diverse portfolio showcasing a range of projects, each a
@@ -90,7 +90,7 @@ const MyProjects = () => {
                     </div>
                     <div className={style.cardsBack}>
                       <div className={style.cardsBackContent}>
-                        <b className="block">Landing Page Design </b>
+                        <b className="block">GPT3 </b>
                         <small className="my-1 md:my-3"> This is a full responsive user friendly website. Making this website I use Next js. </small>
                         <div className="flex items-center justify-between w-[150px] mx-auto text-black">
                           <Link href='https://6455bd7567048843913f9d26--dreamy-conkies-33d504.netlify.app/'><small>Preiveiw </small></Link>
