@@ -1,9 +1,8 @@
-import { amazonImg, cyberImg } from "@/public/assets";
+import { amazonImg, cyberImg, softyPy } from "@/public/assets";
 import Image from "next/image";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
 import { RxOpenInNewWindow } from "react-icons/rx";
-import softyPy from '../public/assets/SoftyPy.png'
 import Link from "next/link";
 
 const Projects = () => {
@@ -35,7 +34,9 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">ghrunti.com</h3>
             </div>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-             Ghuronti is a Travel Agency website. Where a user travel journey is more easyway .Through this website a user can book Flight, Hotel, Bus Ticket, Train Ticket and  Hajj & Umrah package.
+              Ghuronti is a Travel Agency website. Where a user travel journey
+              is more easyway .Through this website a user can book Flight,
+              Hotel, Bus Ticket, Train Ticket and Hajj & Umrah package.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Nextjs</li>
@@ -87,9 +88,13 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Havenly </h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
-            Elevate your housing search experience with our house rental website. Explore, sort, and manage your choices in style with features like a customizable dashboard, convenient dark mode, and secure JWT authentication. Discover the future of seamless renting at your fingertips.
-
-              <span className="text-textGreen">User </span> can book house and give review.
+              Elevate your housing search experience with our house rental
+              website. Explore, sort, and manage your choices in style with
+              features like a customizable dashboard, convenient dark mode, and
+              secure JWT authentication. Discover the future of seamless renting
+              at your fingertips.
+              <span className="text-textGreen">User </span> can book house and
+              give review.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>React js</li>
@@ -141,8 +146,10 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">SoftyPy</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-              This is a It services company website.Through this website that company handle there business. By this website user find their best It partner. Making this website I use React Js, Tailwind css, Node js, Express js and MongoDB.
-
+              This is a It services company website.Through this website that
+              company handle there business. By this website user find their
+              best It partner. Making this website I use React Js, Tailwind css,
+              Node js, Express js and MongoDB.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>React Js </li>
